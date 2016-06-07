@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<!-- Made by Brandon Ma. June 6, 2016 -->
+	<head>
+		<meta charset="utf-8">
+		<title>Grocery List Tracker</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="scripts.js"></script>
+	</head>
+	
+	<body class="mainBody">
+		<h2>Groceries List - Track your groceries here!</h2>
+		<div class="row">
+			<div class="mainRow">
+				<div class="colZero"></div>
+				<div class="colOne">
+					<input id="item" name="" type="text" placeholder="New grocery item">
+				</div>
+				<div class="colTwo">
+					<button id="notes" onclick="addNotes(this)">Add notes</button>
+				</div>
+				<div class="colThree">
+					<input type="button" value="Add item" id="add" onclick="add()" />
+				</div>
+			</div>
+			
+			<div class="notesRow" style="display: none;">
+				<textarea id="itemNotes" type="text" class="notesArea" placeholder="Add any notes for the item"></textarea>
+			</div>
+		</div>
+
+		<h2>Current List</h2>
+		
+		<div id="groceryList">
+		</div>
+		
+	</body>
+</html>
+
+
+
+
+
