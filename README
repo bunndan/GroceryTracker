@@ -1,22 +1,25 @@
-Grocery items list
+Grocery Tracker
+
+This is a simple web based grocery list tool that allows a user to track a list of grocery items they would like to purchase. 
+
+The main focus here was to allow a person to add and remove items in a list. Some goals I wanted to hit were:
 
 1. Add item to list
 2. Grocery item - display a title and notes (optional)
-
 3. View list of items
 4. Show all items on screen
 5. Title shown only on fullscreen
-
 6. View details of item
-
 7. Remove an item from list
 8. Have delete button when showing item
 9. Confirmation dialogue
-
 10. Edit an item in list
 11. Have edit button when showing item
 12. Confirmation to save or cancel changes
-
 13. Mark item on list as purchased
 14. Toggle box per item
 15. Purchased item shown differently
+
+I was able to see how much I could do within 3 hours.
+
+Coded in JavaScript, HTML, and CSS.
